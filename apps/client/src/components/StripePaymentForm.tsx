@@ -9,7 +9,7 @@ import CheckoutForm from "./CheckoutForm";
 import useCartStore from "@/stores/cartStore";
 
 const stripe = loadStripe(
-  "pk_test_51MdCLkDhkeDdZct5FkM9qMlMvAzsJpObS6eUy44jYLuVMhUFjYjzr4VLodA0GiUj0WBaOSzm38QJ8ju3SAYhdNkF00myyAyh6M"
+  "pk_test_51T0SX1LEcfjHHYEJKaaIAjxTxM4KdwQ99KN53wb5DF5bmf0HqJ9nKsQ8zfHIZjNIc0DTVb4qM1P5BqjMs4AFZmo400T9n5nKr4"
 );
 
 const fetchClientSecret = async (cart: CartItemsType, token: string) => {
